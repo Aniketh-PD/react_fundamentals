@@ -1,0 +1,22 @@
+{
+  "name": "basics_react",
+  "version": "1.0.0",
+  "description": "react fundamentals",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aniketh-PD/react_fundamentals.git"
+  },
+  "author": "Aniketh.P.D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aniketh-PD/react_fundamentals/issues"
+  },
+  "homepage": "https://github.com/Aniketh-PD/react_fundamentals#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
