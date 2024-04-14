@@ -1,0 +1,685 @@
+const resData = [
+    {
+      info: {
+        id: "10892",
+        name: "Pizza Hut",
+        cloudinaryImageId: "2b4f62d606d1b2bfba9ba9e5386fabb7",
+        locality: "Vani Vilas Road",
+        areaName: "Basavanagudi",
+        costForTwo: "₹350 for two",
+        cuisines: ["Pizzas"],
+        avgRating: 4,
+        parentId: "721",
+        avgRatingString: "4.0",
+        totalRatingsString: "5K+",
+        sla: {
+          deliveryTime: 38,
+          lastMileTravel: 1.9,
+          serviceability: "SERVICEABLE",
+          slaString: "35-40 mins",
+          lastMileTravelString: "1.9 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-04-21 00:00:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "ITEMS",
+          subHeader: "AT ₹179",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-72aae1cb-5b16-42f1-b59e-8a632a7e5b52",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/pizza-hut-vani-vilas-road-basavanagudi-bangalore-10892",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "405798",
+        name: "Chinese Wok",
+        cloudinaryImageId: "e0839ff574213e6f35b3899ebf1fc597",
+        locality: "Malleshwaram",
+        areaName: "Malleshwaram",
+        costForTwo: "₹250 for two",
+        cuisines: ["Chinese", "Asian", "Tibetan", "Desserts"],
+        avgRating: 4.1,
+        parentId: "61955",
+        avgRatingString: "4.1",
+        totalRatingsString: "500+",
+        sla: {
+          deliveryTime: 57,
+          lastMileTravel: 4.7,
+          serviceability: "SERVICEABLE",
+          slaString: "55-60 mins",
+          lastMileTravelString: "4.7 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-04-14 22:00:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "ITEMS",
+          subHeader: "AT ₹179",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-72aae1cb-5b16-42f1-b59e-8a632a7e5b52",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/chinese-wok-malleshwaram-bangalore-405798",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "82504",
+        name: "UBQ by Barbeque Nation",
+        cloudinaryImageId: "mpxqoksbeig38xs1wkgm",
+        locality: "Dr Rajkumar Road",
+        areaName: "Rajajinagar",
+        costForTwo: "₹300 for two",
+        cuisines: [
+          "North Indian",
+          "Barbecue",
+          "Biryani",
+          "Kebabs",
+          "Mughlai",
+          "Desserts",
+        ],
+        avgRating: 3.9,
+        parentId: "10804",
+        avgRatingString: "3.9",
+        totalRatingsString: "5K+",
+        sla: {
+          deliveryTime: 52,
+          lastMileTravel: 4,
+          serviceability: "SERVICEABLE",
+          slaString: "50-55 mins",
+          lastMileTravelString: "4.0 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-04-14 23:30:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "50% OFF",
+          subHeader: "UPTO ₹100",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-72aae1cb-5b16-42f1-b59e-8a632a7e5b52",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-dr-rajkumar-road-rajajinagar-bangalore-82504",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "788303",
+        name: "Wow! Momo",
+        cloudinaryImageId: "64fd45fd9f44c1737bc446e470bed666",
+        locality: "Near Shanti Nagar Bus Stop",
+        areaName: "Shantinagar",
+        costForTwo: "₹300 for two",
+        cuisines: [
+          "Tibetan",
+          "Healthy Food",
+          "Asian",
+          "Chinese",
+          "Snacks",
+          "Continental",
+          "Desserts",
+          "Beverages",
+        ],
+        avgRating: 4.4,
+        parentId: "1776",
+        avgRatingString: "4.4",
+        totalRatingsString: "100+",
+        sla: {
+          deliveryTime: 33,
+          lastMileTravel: 3,
+          serviceability: "SERVICEABLE",
+          slaString: "30-35 mins",
+          lastMileTravelString: "3.0 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-04-14 23:00:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "60% OFF",
+          subHeader: "UPTO ₹120",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        isNewlyOnboarded: true,
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-72aae1cb-5b16-42f1-b59e-8a632a7e5b52",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/wow-momo-near-shanti-nagar-bus-stop-shantinagar-bangalore-788303",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "302697",
+        name: "Barbeque Nation",
+        cloudinaryImageId: "d3najev2rpzakxfvp318",
+        locality: "Rajajinagar",
+        areaName: "Rajajinagar",
+        costForTwo: "₹600 for two",
+        cuisines: [
+          "North Indian",
+          "Barbecue",
+          "Biryani",
+          "Kebabs",
+          "Mughlai",
+          "Desserts",
+        ],
+        avgRating: 3.9,
+        parentId: "2438",
+        avgRatingString: "3.9",
+        totalRatingsString: "1K+",
+        sla: {
+          deliveryTime: 54,
+          lastMileTravel: 4,
+          serviceability: "SERVICEABLE",
+          slaString: "50-55 mins",
+          lastMileTravelString: "4.0 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-04-14 23:30:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "₹150 OFF",
+          subHeader: "ABOVE ₹799",
+          discountTag: "FLAT DEAL",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-72aae1cb-5b16-42f1-b59e-8a632a7e5b52",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/barbeque-nation-rajajinagar-bangalore-302697",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "692187",
+        name: "BOOM Sandwich - Sub of India",
+        cloudinaryImageId: "96aaf72372ad1b0297b7cc304ced7e33",
+        locality: "Azad Nagar",
+        areaName: "Mysore Road",
+        costForTwo: "₹250 for two",
+        cuisines: ["Snacks", "Indian", "Desserts"],
+        avgRating: 4.1,
+        parentId: "401169",
+        avgRatingString: "4.1",
+        totalRatingsString: "50+",
+        sla: {
+          deliveryTime: 20,
+          lastMileTravel: 1.8,
+          serviceability: "SERVICEABLE",
+          slaString: "15-25 mins",
+          lastMileTravelString: "1.8 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-04-15 01:00:00",
+          opened: true,
+        },
+        badges: {
+          textExtendedBadges: [
+            {
+              iconId: "guiltfree/GF_Logo_android_3x",
+              shortDescription: "options available",
+              fontColor: "#7E808C",
+            },
+          ],
+        },
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {
+              badgeObject: [
+                {
+                  attributes: {
+                    description: "",
+                    fontColor: "#7E808C",
+                    iconId: "guiltfree/GF_Logo_android_3x",
+                    shortDescription: "options available",
+                  },
+                },
+              ],
+            },
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "50% OFF",
+          subHeader: "UPTO ₹100",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-72aae1cb-5b16-42f1-b59e-8a632a7e5b52",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/boom-sandwich-sub-of-india-azad-nagar-mysore-road-bangalore-692187",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "425576",
+        name: "NH1 Bowls - Highway To North",
+        cloudinaryImageId: "94654fdf308764cd0faf83dba35bcdc3",
+        locality: "Azad Nagar",
+        areaName: "Mysore Road",
+        costForTwo: "₹250 for two",
+        cuisines: ["North Indian", "Punjabi", "Home Food"],
+        avgRating: 4.6,
+        parentId: "22452",
+        avgRatingString: "4.6",
+        totalRatingsString: "100+",
+        sla: {
+          deliveryTime: 22,
+          lastMileTravel: 1.8,
+          serviceability: "SERVICEABLE",
+          slaString: "17-27 mins",
+          lastMileTravelString: "1.8 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-04-15 01:00:00",
+          opened: true,
+        },
+        badges: {
+          textExtendedBadges: [
+            {
+              iconId: "guiltfree/GF_Logo_android_3x",
+              shortDescription: "options available",
+              fontColor: "#7E808C",
+            },
+          ],
+        },
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {
+              badgeObject: [
+                {
+                  attributes: {
+                    description: "",
+                    fontColor: "#7E808C",
+                    iconId: "guiltfree/GF_Logo_android_3x",
+                    shortDescription: "options available",
+                  },
+                },
+              ],
+            },
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "ITEMS",
+          subHeader: "AT ₹159",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-72aae1cb-5b16-42f1-b59e-8a632a7e5b52",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/nh1-bowls-highway-to-north-azad-nagar-mysore-road-bangalore-425576",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "17301",
+        name: "KFC",
+        cloudinaryImageId: "f01666ac73626461d7455d9c24005cd4",
+        locality: "Vani Vilas Road",
+        areaName: "Basavanagudi",
+        costForTwo: "₹400 for two",
+        cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+        avgRating: 4.3,
+        parentId: "547",
+        avgRatingString: "4.3",
+        totalRatingsString: "10K+",
+        sla: {
+          deliveryTime: 26,
+          lastMileTravel: 1.9,
+          serviceability: "SERVICEABLE",
+          slaString: "25-30 mins",
+          lastMileTravelString: "1.9 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-04-15 02:00:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        aggregatedDiscountInfoV2: {},
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-72aae1cb-5b16-42f1-b59e-8a632a7e5b52",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/kfc-vani-vilas-road-basavanagudi-bangalore-17301",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "457522",
+        name: "McDonald's",
+        cloudinaryImageId:
+          "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/3770fd3f-18e3-4a61-b8df-8a36fd7d5887_457522.jpg",
+        locality: "Gandhi Bazaar Main Road",
+        areaName: "Basavangudi",
+        costForTwo: "₹400 for two",
+        cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
+        avgRating: 4.4,
+        parentId: "630",
+        avgRatingString: "4.4",
+        totalRatingsString: "1K+",
+        sla: {
+          deliveryTime: 30,
+          lastMileTravel: 2.1,
+          serviceability: "SERVICEABLE",
+          slaString: "30-35 mins",
+          lastMileTravelString: "2.1 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-04-15 01:00:00",
+          opened: true,
+        },
+        badges: {
+          imageBadges: [
+            {
+              imageId: "Rxawards/_CATEGORY-Burger.png",
+              description: "Delivery!",
+            },
+          ],
+        },
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {
+              badgeObject: [
+                {
+                  attributes: {
+                    description: "Delivery!",
+                    imageId: "Rxawards/_CATEGORY-Burger.png",
+                  },
+                },
+              ],
+            },
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "₹150 OFF",
+          subHeader: "ABOVE ₹899",
+          discountTag: "FLAT DEAL",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-72aae1cb-5b16-42f1-b59e-8a632a7e5b52",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/mcdonalds-gandhi-bazaar-main-road-basavangudi-bangalore-457522",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+  ];
+
+  export default resData;
