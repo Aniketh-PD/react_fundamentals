@@ -21,7 +21,12 @@
     display: flex;
 }
 
-.header-nav-links > ul > li {
+.header-nav-links > ul > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-nav-links > ul > a > li {
     padding: 0 20px;
     font-size: 24px;
     list-style-type: none;
