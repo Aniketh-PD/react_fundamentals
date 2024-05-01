@@ -19,7 +19,7 @@ const ItemList = ({ items }) => {
             </div>
             <p className="text-xs">{item?.card?.info?.description}</p>
           </div>
-          <div className="w-3/12">
+          <div className="w-3/12 p-4">
             <div className="absolute">
                 <button className="p-2 mx-16 bg-black text-white">Add+</button>
             </div>
