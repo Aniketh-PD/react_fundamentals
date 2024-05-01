@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import RestaurantCard from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   const [filteredRestaurantList, setFilteredRestaurantList] = useState([]);
@@ -11,6 +12,8 @@ const Body = () => {
   useEffect(() => {
     fetchData();
   }, []);
+
+  const isOnline = useOnlineStatus();
 
   const fetchData = async () => {
     const data = await fetch(
@@ -48,23 +51,45 @@ const Body = () => {
     setFilteredRestaurantList(restaurantsMatchingSearch);
   };
 
+  if (!isOnline) {
+    return (
+      <h1>looks like you are offline please check your internet connection</h1>
+    );
+  }
+
   if (restaurantList.length === 0) {
     return <Shimmer />;
   }
 
   return (
     <div className="body">
-      <div className="filter">
-        <div className="search-container">
-          <input type="text" value={searchValue} onChange={handleChange} />
-          <button onClick={handleSearchClick}>Search</button>
+      <div className="flex">
+        <div className="m-4 p-4">
+          <input
+            type="text"
+            className="border border-solid border-black"
+            value={searchValue}
+            onChange={handleChange}
+          />
+          <button
+            className="px-4 py-2 m-4 bg-orange-100"
+            onClick={handleSearchClick}
+          >
+            Search
+          </button>
+
+          <button className="px-4 py-2 m-2 bg-green-100" onClick={handleClick}>
+            Top Rated Restaurants
+          </button>
         </div>
-        <button onClick={handleClick}>Top Rated Restaurants</button>
       </div>
-      <div className="restaraunt-container">
+      <div className="flex flex-wrap">
         {filteredRestaurantList.map((restaurant) => (
-          <Link to={`restaurants/${restaurant?.info?.id}`}>
-            <RestaurantCard key={restaurant?.info?.id} resData={restaurant} />
+          <Link
+            key={restaurant?.info?.id}
+            to={`restaurants/${restaurant?.info?.id}`}
+          >
+            <RestaurantCard resData={restaurant} />
           </Link>
         ))}
       </div>

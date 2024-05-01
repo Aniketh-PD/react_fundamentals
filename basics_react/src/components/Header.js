@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="header">
-      <img src={LOGO_URL} className="header-logo" />
-      <div className="header-nav-links">
-        <ul>
-          <Link to={"/"}>
+    <div className="flex justify-between shadow-lg bg-orange-100">
+      <img src={LOGO_URL} className="w-56" />
+      <div>
+        <ul className="flex items-center m-4 p-4">
+          <Link to={"/"} className="m-4 p-4">
             <li>Home</li>
           </Link>
-          <Link to={"/about"}>
+          <Link to={"/about"} className="m-4 p-4">
             <li>About us</li>
           </Link>
-          <Link to={"/contact"}>
+          <Link to={"/contact"} className="m-4 p-4">
             <li>Contact us</li>
           </Link>
-          <Link to="/">
+          <Link to="/" className="m-4 p-4">
             <li>Cart</li>
           </Link>
         </ul>
