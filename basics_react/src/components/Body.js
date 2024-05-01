@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
@@ -51,6 +51,8 @@ const Body = () => {
     setFilteredRestaurantList(restaurantsMatchingSearch);
   };
 
+  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
+
   if (!isOnline) {
     return (
       <h1>looks like you are offline please check your internet connection</h1>
@@ -60,6 +62,7 @@ const Body = () => {
   if (restaurantList.length === 0) {
     return <Shimmer />;
   }
+
 
   return (
     <div className="body">
@@ -84,12 +87,16 @@ const Body = () => {
         </div>
       </div>
       <div className="flex flex-wrap">
-        {filteredRestaurantList.map((restaurant) => (
+        {filteredRestaurantList.map((restaurant, index) => (
           <Link
             key={restaurant?.info?.id}
             to={`restaurants/${restaurant?.info?.id}`}
           >
-            <RestaurantCard resData={restaurant} />
+            {index % 2 === 0 ? (
+              <RestaurantCardPromoted resData={restaurant} />
+            ) : (
+              <RestaurantCard resData={restaurant} />
+            )}
           </Link>
         ))}
       </div>
