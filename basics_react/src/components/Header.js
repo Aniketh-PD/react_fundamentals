@@ -1,7 +1,10 @@
+import { useSelector } from "react-redux";
 import { LOGO_URL } from "../utils/constants";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const cartItems = useSelector((store) => store.cart.items);
+
   return (
     <div className="flex justify-between shadow-lg bg-orange-100">
       <img src={LOGO_URL} className="w-56" />
@@ -16,8 +19,8 @@ const Header = () => {
           <Link to={"/contact"} className="m-4 p-4">
             <li>Contact us</li>
           </Link>
-          <Link to="/" className="m-4 p-4">
-            <li>Cart</li>
+          <Link to="/cart" className="m-4 p-4">
+            <li>Cart({cartItems.length})</li>
           </Link>
         </ul>
       </div>

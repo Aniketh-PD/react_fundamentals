@@ -7,6 +7,10 @@ import Contact from "./components/Contact";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Error from "./components/Error";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "./store/store";
+import Cart from "./components/Cart";
+
 /**
  * code splitting
  */
@@ -14,11 +18,13 @@ const About = lazy(() => import("./components/About"));
 
 const AppLayout = () => {
   return (
-    <div className="app">
-      <Header />
-      {/* outlet component gets replaced upon route change */}
-      <Outlet />
-    </div>
+    <Provider store={store}>
+      <div className="app">
+        <Header />
+        {/* outlet component gets replaced upon route change */}
+        <Outlet />
+      </div>
+    </Provider>
   );
 };
 
@@ -46,6 +52,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/restaurants/:resId",
         element: <RestaurantMenu />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
     ],
     errorElement: <Error />,
